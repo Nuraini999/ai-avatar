@@ -10,7 +10,7 @@ for i, sentence in enumerate(sentences):
     sentence = sentence.strip()
     if sentence:
         filename = f"audios/sentence_{i}.mp3"
-        tts = gTTS(sentence, lang='en')
+        tts = gTTS(sentence, lang='id')
         tts.save(filename)
         file_paths.append(filename)
 
